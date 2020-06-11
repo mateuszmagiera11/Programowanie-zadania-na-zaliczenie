@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Numerics;
+using System;
 
 namespace Programowanie_zadania_na_zaliczenie
 {
@@ -6,7 +7,15 @@ namespace Programowanie_zadania_na_zaliczenie
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            BigInteger n, wynik = 1;
+            Console.WriteLine("Podaj liczbę dla jakiej chcesz obliczyć silnię: ");
+            n = BigInteger.Parse(Console.ReadLine());
+
+            for(int i=1; i<=n; i++)
+            {
+                wynik *= i;
+            }
+            Console.WriteLine("Wynik to: " + wynik);
         }
     }
 }
