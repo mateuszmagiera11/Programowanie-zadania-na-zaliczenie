@@ -6,7 +6,18 @@ namespace Programowanie_zadania_na_zaliczenie
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] fib = new int[100];
+            fib[0] = 1;
+            fib[1] = 1;
+
+            for(int i = 2; i < 100; i++)
+            {
+                fib[i] = fib[i - 2] + fib[i - 1];
+            }
+            for(int i = 0; i < 100; i++)
+            {
+                Console.WriteLine(fib[i] + " "); ;
+            }
         }
     }
 }
