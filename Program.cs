@@ -23,6 +23,7 @@ namespace Programowanie_zadania_na_zaliczenie
                 {
                     Console.Write(tab[i, j] + " ");
                 }
+                Console.WriteLine(" ");
             }
         }
     }
