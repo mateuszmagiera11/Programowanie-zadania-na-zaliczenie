@@ -18,6 +18,7 @@ namespace Programowanie_zadania_na_zaliczenie
             Console.WriteLine("Pdaj liczbę z której chcesz obliczyć silnię: ");
             i = BigInteger.Parse(Console.ReadLine());
             Console.WriteLine("Wynik to: " + silnia(i));
+            Console.ReadLine();
         }
     }
 }
