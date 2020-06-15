@@ -6,7 +6,7 @@ namespace Programowanie_zadania_na_zaliczenie
     {
         static void Main(string[] args)
         {
-            int[] fib = new int[100];
+            double[] fib = new double[100];
             fib[0] = 1;
             fib[1] = 1;
 
@@ -16,7 +16,7 @@ namespace Programowanie_zadania_na_zaliczenie
             }
             for(int i = 0; i < 100; i++)
             {
-                Console.WriteLine(fib[i] + " "); ;
+                Console.WriteLine("Wyraz "+(i+1)+" to "+fib[i] ); 
             }
             Console.ReadLine();
         }
