@@ -16,6 +16,7 @@ namespace Programowanie_zadania_na_zaliczenie
                 wynik *= i;
             }
             Console.WriteLine("Wynik to: " + wynik);
+            Console.ReadLine();
         }
     }
 }
