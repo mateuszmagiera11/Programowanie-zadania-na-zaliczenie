@@ -25,6 +25,7 @@ namespace Programowanie_zadania_na_zaliczenie
                 }
                 Console.WriteLine(" ");
             }
+            Console.ReadLine();
         }
     }
 }
